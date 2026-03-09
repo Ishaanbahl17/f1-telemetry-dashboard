@@ -15,7 +15,7 @@ import dash_bootstrap_components as dbc
 if not os.path.exists("cache"):
     os.makedirs("cache")
 
-fastf1.Cache.enable_cache("cache")
+fastf1.Cache.enable_cache("./cache")
 
 YEAR = 2025
 
